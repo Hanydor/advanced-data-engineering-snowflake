@@ -55,8 +55,6 @@ raw zone table build
 
 
 -- country table build
-
--- todo: complete table build
 CREATE OR ALTER TABLE {{env}}_tasty_bytes.raw_pos.country
 (
    country_id NUMBER(18,0),
